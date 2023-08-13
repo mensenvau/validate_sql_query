@@ -7,6 +7,8 @@ version 1:
 
 - I've been thinking for about 2 hours that this is possible, but it's looking increasingly like a bad solution. top N,distinct, functions, etc. if added.
 
+- There are two options to use column name [column name] or "column name" ... I use second ("column name")
+
 only:
 
 ```
