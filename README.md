@@ -68,7 +68,7 @@ let tests = [
    ["select  from test as b", false],
    ["select ,,, from test as b", false],
    ["select name as name as name from test as b", false],
-   ["select xixix from test as b", true]
+   ["select xaxa from test as b", true]
 ]
 
 for (let item of tests) {
