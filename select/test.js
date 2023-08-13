@@ -1,6 +1,6 @@
 
 let validateIsSelect = (query) => {
-    let regexp = /\s*SELECT\s+(?:\"[A-Za-z\s\$\%\*\(\)\_\+\&]+\"|\*|[A-Za-z_]\w*)(?:\s+AS\s+[A-Za-z_]\w*)?(?:\s*,\s*(?:\"[A-Za-z\s\$\%\*\(\)\_\+\&]+\"|\*|[A-Za-z_]\w*)(?:\s+AS\s+[A-Za-z_]\w*)?)*\s+FROM\s+(?:\"[A-Za-z\s\$\%\*\(\)\_\+\&]+\"|[A-Za-z_]\w*)(?:\s+AS\s+[A-Za-z_]\w*)?\s*$/gi
+    let regexp = /\s*SELECT\s+(?:\"[A-Za-z0-9\s\$\%\*\(\)\_\+\&]+\"|\*|[A-Za-z_]\w*)(?:\s+AS\s+[A-Za-z_]\w*)?(?:\s*,\s*(?:\"[A-Za-z0-9\s\$\%\*\(\)\_\+\&]+\"|\*|[A-Za-z_]\w*)(?:\s+AS\s+[A-Za-z_]\w*)?)*\s+FROM\s+(?:\"[A-Za-z0-9\s\$\%\*\(\)\_\+\&]+\"|[A-Za-z_]\w*)(?:\s+AS\s+[A-Za-z_]\w*)?\s*$/gi
     return regexp.test(query);
 }
 
