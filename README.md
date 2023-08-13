@@ -24,7 +24,7 @@ _select/mysolution.js_
 
 - It is much easier if you want to take it in groups.
 
-````
+```
 let validateIsSelect = (query) => {
 
    let regexp = /^SELECT\s+(.+?)\s+FROM\s+(.+?)\s*$/i;
@@ -73,5 +73,5 @@ let tests = [
 
 for (let item of tests) {
    console.assert(validateIsSelect(item[0]) == item[1])
-}```
-````
+}
+```
