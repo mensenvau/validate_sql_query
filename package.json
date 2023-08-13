@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "randexp": "^0.5.3",
+    "regex-to-strings": "^2.1.0"
+  },
+  "name": "validate_sql_query",
+  "description": "### SELECT",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
