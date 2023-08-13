@@ -13,3 +13,5 @@ select columname as name from table
 select columname as name,ddd as name from table
 select columname1,columname2 as name,columname3 from table as T
 ```
+
+#### [Link To Test](https://regexr.com/7igq9)
